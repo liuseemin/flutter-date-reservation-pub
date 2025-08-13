@@ -101,35 +101,6 @@ B,A,B,C
 
 ---
 
-## 專案目錄結構與檔案說明
-
-```
-roster-json-builder/
-│
-├─ lib/
-│   ├─ main.dart               # 程式進入點
-│   ├─ pages/                  # 各頁面元件
-│   │   ├─ home_page.dart
-│   │   ├─ employee_page.dart
-│   │   └─ prefill_page.dart
-│   ├─ models/                 # 資料模型 (Employee, Prefill, Config)
-│   ├─ widgets/                # 共用元件 (表格、按鈕、輸入欄位)
-│   ├─ services/               # JSON 匯入匯出、CSV 解析
-│   └─ utils/                  # 工具函式 (debounce、字元分配等)
-│
-├─ assets/
-│   ├─ sample_csv/             # CSV 範例檔
-│   └─ sample_json/            # JSON 範例檔
-│
-├─ web/
-│   └─ index.html              # Web 入口頁
-│
-├─ pubspec.yaml                # Flutter 套件與資源設定
-└─ README.md                   # 專案說明文件
-```
-
----
-
 ## 注意事項
 
 * 所有輸入欄位支援即時編輯，並使用 debounce 提升效能。
