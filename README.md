@@ -43,7 +43,7 @@
 
 ## 安裝
 
-1. 克隆專案：
+1. Clone專案：
 
 ```bash
 git clone <repository-url>
