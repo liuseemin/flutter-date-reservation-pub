@@ -254,7 +254,7 @@ class _RosterJsonBuilderPageState extends State<RosterJsonBuilderPage> {
         'extra_holidays': List<int>.from(
           _extraHolidaysCtrl.text
               .split(',')
-              .map((s) => int.tryParse(s.trim()) ?? 0),
+              .map((s) => int.tryParse(s.trim()) ?? []),
         ),
         'areas': _areasCtrl.text.split(',').map((s) => s.trim()).toList(),
         'dept_block_weekday': jsonDecode(_deptBlockCtrl.text.trim()),
